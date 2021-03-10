@@ -64,7 +64,7 @@
         </div>
       </section>
       <section class="blog">
-        <h1 class="blog__title">blog</h1>
+        <h2 class="blog__title">blog</h2>
         <p class="blog__text">
           Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
           exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -104,9 +104,74 @@
         </div>
         <button class="blog__button">view more</button>
       </section>
+      <section class="contact">
+        <h2 class="contact__title">contact</h2>
+        <h4 class="contact__subtitle">
+          For new projects, ideas, business or anything you'd like to discuss,
+          contact with me!
+        </h4>
+        <div class="contact__main-wrapper">
+          <div class="main__form-wrapper">
+            <form class="main__form" action="#" method="GET">
+              <label class="form__label"
+                ><input
+                  class="form__name form-input"
+                  type="text"
+                  name="username"
+                  minlength="4"
+                  placeholder="Your name..."
+                  required /></label
+              ><label class="form__label"
+                ><input
+                  class="form__email form-input"
+                  type="email"
+                  name="email"
+                  placeholder="Your email..."
+                  required /></label
+              ><label class="form__label"
+                ><input
+                  class="form__tel form-input"
+                  type="tel"
+                  maxlength="10"
+                  minlength="10"
+                  pattern="^[ 0-9]+$"
+                  name="tel-number"
+                  placeholder="Your phone number..."
+                  required /></label
+              ><label class="form__label">
+                <textarea
+                  class="form__text form-input"
+                  name="message"
+                  cols="30"
+                  rows="5"
+                  placeholder="Your message..."
+                  required
+                ></textarea>
+              </label>
+            </form>
+          </div>
+          <div class="main__contacts">
+            <h3 class="main-contacts__title">adress</h3>
+            <p class="main-contacts__subtitle">
+              123 City name, Street, City, Country
+            </p>
+            <h3 class="main-contacts__title">email</h3>
+            <p class="main-contacts__subtitle">cahee@domain.com</p>
+            <h3 class="main-contacts__title">phone</h3>
+            <p class="main-contacts__subtitle">+012 345 6789</p>
+          </div>
+        </div>
+      </section>
     </main>
-    <a class="scroll" href="#top"
+    <footer class="footer">
+      <div class="footer__left">&copy; 2015 Company. All right reserved</div>
+      <div class="footer__cahee">Cahee</div>
+      <div class="footer__right">
+        Made with <span class="footer__love">love</span> by Auskeez
+      </div>
+    </footer>
+    <!-- <a class="scroll" href="#top"
       ><img src="./img/scroll.png" alt="scroll"
-    /></a>
+    /></a> -->
   </body>
 </html>
